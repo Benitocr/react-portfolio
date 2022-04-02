@@ -1,9 +1,11 @@
 import React from 'react';
+import Nav from '../Nav';
 
 function Head() {
   return (
     <section>
-      <h1 id="Head">Who am I new 2?</h1>
+      
+      <Nav></Nav>
     </section>
   );
 }

@@ -4,8 +4,9 @@ function Nav() {
 
   return (
       <nav className="flex-row navlist">
-            <h1 className="flex-row">Benito Cavazos</h1>
+            <h1 >Benito Cavazos</h1>
             <ul className="flex-row " >   
+            
                 <li className="mx-2 ">
                   About me  
                 </li>
