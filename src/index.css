@@ -159,6 +159,8 @@ nav a:hover {
 
 nav  li {
   cursor: pointer;
+  justify-content: space-between;
+
 }
 
 textarea {
@@ -178,8 +180,16 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 
+.navlist{
+  justify-content: space-around;
+}
+
+.navlist2{
+  justify-content: center;
+}
 .space-between {
   justify-content: space-between;
 }
