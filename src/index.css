@@ -255,8 +255,10 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  /* width: 25%; */
   text-align: center;
+  flex:1 0 0;
+  padding: 10px;
 }
 
 .center-text{

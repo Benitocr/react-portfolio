@@ -8,7 +8,9 @@ function Head(props) {
     setAboutSelected,
     aboutSelected,
     setProjectSelected,
-    projectSelected    
+    projectSelected,
+    resumeSelected, 
+    setResumeSelected   
   } = props;
 
   return (
@@ -18,9 +20,11 @@ function Head(props) {
       setContactSelected={setContactSelected}
       contactSelected={contactSelected}
       setAboutSelected={setAboutSelected}
-      aboutSeleceted={aboutSelected}
+      aboutSelected={aboutSelected}
       setProjectSelected={setProjectSelected}
       projectSelected={projectSelected}
+      resumeSelected={resumeSelected}
+      setResumeSelected={setResumeSelected}
       ></Nav>
     </section>
   );
