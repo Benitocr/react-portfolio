@@ -17,7 +17,7 @@ function Nav(props) {
             
                 <li className="mx-2 ">
                   <span onClick={() => {
-                      setProjectSelected = false;
+                      setAboutSelected(current => !current);
                 
                   
                 }}>About me</span>  

@@ -259,6 +259,9 @@ textarea {
   text-align: center;
 }
 
+.center-text{
+  text-align: center;
+}
 .image-small{
   height: 48px;
   width: 48px;
