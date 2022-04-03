@@ -7,9 +7,9 @@ import About from './components/About'
 import { useState } from 'react';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(true);
+  const [contactSelected, setContactSelected] = useState(false);
   const [aboutSelected, setAboutSelected] = useState(false);
-  const [projectSelected, setProjecSelected] =  useState(false);
+  const [projectSelected, setProjectSelected] =  useState(true);
   console.log("valor de ProjectSelected ",projectSelected);
   console.log("valor de aboutSelected ", aboutSelected);
   console.log("Valor de contactSelected ", contactSelected);
@@ -22,7 +22,7 @@ function App() {
       aboutSelected={aboutSelected}
       setAboutSelected={setAboutSelected}
       projectSelected={projectSelected}
-      setProjecSelected= {setProjecSelected}
+      setProjectSelected= {setProjectSelected}
       
       >
 
