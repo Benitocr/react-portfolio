@@ -2,12 +2,13 @@
 import './App.css';
 import Footer from './components/Footer';
 import Head from './components/Head';
-import Nav from './components/Nav';
+import Contact from './components/Contact'
 
 function App() {
   return (
     <div>
       <Head></Head>
+      <Contact></Contact>
 
       <Footer></Footer>
 
