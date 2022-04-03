@@ -1,14 +1,26 @@
-import React from 'react';
+import React,{useState} from 'react';
 
-function Nav() {
-
+function Nav(props) {
+    const {
+        setContactSelected,
+        contactSelected,
+        setAboutSelected,
+        aboutSelected,
+        setProjectSelected,
+        projectSelected    
+    } = props; 
+  
   return (
       <nav className="flex-row navlist">
             <h1 >Benito Cavazos</h1>
             <ul className="flex-row " >   
             
                 <li className="mx-2 ">
-                  About me  
+                  <span onClick={() => {
+                      setProjectSelected = false;
+                
+                  
+                }}>About me</span>  
                 </li>
                 <li className="mx-2">
                     <span>Portfolio</span>
