@@ -5,9 +5,10 @@ This project has been developed in ReactJs
 ![Javascript](https://img.shields.io/badge/Javascipt-blue)
 
 ## Purpose
-[React Portfolio](https://bens-money-tracker.herokuapp.com/) is my personal webpage .
+[React Portfolio](https://benitocr.github.io/react-portfolio/) is my personal webpage .
 
-Here is the link to the deployed app: https://bens-money-tracker.herokuapp.com/
+Here is the link to the deployed app: https://benitocr.github.io/react-portfolio/
+
 ## Built with
 * ReactJs
 
